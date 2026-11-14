@@ -1,59 +1,60 @@
-<div align="center">
-
-![typing](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1200&color=58A6FF&center=true&vCenter=true&width=620&lines=Hi%2C+I'm+Fais+Restu+Pratama;Go+for+APIs%2C+TypeScript+for+the+UI;Mostly+building+things+end+to+end)
-
-# Fais Restu Pratama
-
-**Full-stack developer.** I write Go services and the TypeScript that talks to them.
-
-[![GitHub](https://img.shields.io/badge/GitHub-restuprtma-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/restuprtma)
-![Profile views](https://komarev.com/ghpvc/?username=restuprtma&style=for-the-badge&color=58A6FF&label=views)
-
-</div>
-
----
-
-### Stack
-
-<p>
-  <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go">
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP">
-  <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" alt="Dart">
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java">
-  <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter">
-</p>
-
----
-
-### Featured work
-
-| Repo | Stack | What it does |
-| :--- | :--- | :--- |
-| [quotation-app](https://github.com/restuprtma/quotation-app) · [quotation-api](https://github.com/restuprtma/quotation-api) | TypeScript · Go | Quotation management, split into a typed frontend and a Go API |
-| [overthinking-simulator-app](https://github.com/restuprtma/overthinking-simulator-app) · [overthinking-simulator-api](https://github.com/restuprtma/overthinking-simulator-api) | TypeScript · Go | Same app/API split, built to explore an idea end to end |
-| [LMS-admin-go](https://github.com/restuprtma/LMS-admin-go) · [prototype-lms](https://github.com/restuprtma/prototype-lms) | Go · TypeScript | Learning management system: admin side in Go, prototype in TS |
-| [deteksi-platnomor](https://github.com/restuprtma/deteksi-platnomor) | Python | License plate detection |
-| [skripsweet](https://github.com/restuprtma/skripsweet) | Jupyter Notebook | Thesis work, still in progress |
-
----
-
-### GitHub
-
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=restuprtma&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true" alt="GitHub stats">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=restuprtma&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top languages">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+    <img src="assets/banner-light.svg" alt="Fais Restu Pratama — Go services, TypeScript interfaces" width="100%">
+  </picture>
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=restuprtma&theme=tokyonight&hide_border=true" alt="Commit streak">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=go,ts,python,php,dart,java&theme=dark">
+    <img src="https://skillicons.dev/icons?i=go,ts,python,php,dart,java&theme=light" alt="Go, TypeScript, Python, PHP, Dart, Java" height="46">
+  </picture>
+</p>
+
+## What I do
+
+I build things end to end — the Go service, the schema behind it, and the TypeScript in front of it. Most of my repos come in pairs: a `*-api` and the `*-app` that talks to it.
+
+```go
+func (s *Service) Handle(ctx context.Context, req Request) (Response, error) {
+	return s.store.Commit(ctx, req.Payload) // boring on purpose
+}
+```
+
+---
+
+## Selected work
+
+| | Repo | Stack |
+| :-- | :--- | :--- |
+| 01 | **[quotation-app](https://github.com/restuprtma/quotation-app)** · [quotation-api](https://github.com/restuprtma/quotation-api) | TypeScript · Go |
+| 02 | **[overthinking-simulator-app](https://github.com/restuprtma/overthinking-simulator-app)** · [overthinking-simulator-api](https://github.com/restuprtma/overthinking-simulator-api) | TypeScript · Go |
+| 03 | **[LMS-admin-go](https://github.com/restuprtma/LMS-admin-go)** · [prototype-lms](https://github.com/restuprtma/prototype-lms) | Go · TypeScript |
+| 04 | **[deteksi-platnomor](https://github.com/restuprtma/deteksi-platnomor)** | Python |
+| 05 | **[skripsweet](https://github.com/restuprtma/skripsweet)** | Jupyter |
+
+<sub>01–03 are app/API pairs. 04 is license-plate detection. 05 is the thesis repo, still in progress.</sub>
+
+---
+
+## Activity
+
+<p align="center">
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=restuprtma&theme=tokyonight&hide_border=true&area=true&radius=8" alt="Contribution activity graph">
+</p>
+
+<p align="center">
+  <img height="150" src="https://streak-stats.demolab.com?user=restuprtma&theme=tokyonight&hide_border=true" alt="Commit streak">
+  <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=restuprtma&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" alt="Top languages">
 </p>
 
 ---
 
-<div align="center">
+<p align="center">
+  <a href="https://github.com/restuprtma?tab=repositories"><img src="https://img.shields.io/badge/start_here-all_repositories-58A6FF?style=for-the-badge&logo=github&logoColor=white" alt="All repositories"></a>
+  <a href="https://github.com/restuprtma/quotation-api"><img src="https://img.shields.io/badge/quotation--api-Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="quotation-api"></a>
+  <a href="https://github.com/restuprtma/quotation-app"><img src="https://img.shields.io/badge/quotation--app-TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="quotation-app"></a>
+</p>
 
-If something here is useful to you, a ⭐ goes a long way.
-
-</div>
+<p align="center"><sub>Banner, metrics and layout are hand-built SVG in <a href="assets">/assets</a> — no template.</sub></p>

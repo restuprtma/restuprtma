@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300" role="img" aria-label="Fais Restu Pratama">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1000" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0b1017"/>
+      <stop offset="1" stop-color="#141b26"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(200 20) scale(430 320)">
+      <stop stop-color="#58A6FF" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#58A6FF" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#8b949e" stroke-opacity=".07"/>
+    </pattern>
+  </defs>
+
+  <rect width="1000" height="300" fill="url(#bg)"/>
+  <rect width="1000" height="300" fill="url(#grid)"/>
+  <rect width="1000" height="300" fill="url(#glow)"/>
+  <rect width="1000" height="2" fill="#58A6FF" fill-opacity=".65"/>
+
+  <!-- terminal card -->
+  <rect x="700" y="64" width="236" height="140" rx="12" fill="#0d1117" stroke="#30363d"/>
+  <path d="M700 88h236" stroke="#30363d"/>
+  <circle cx="722" cy="76" r="4" fill="#ff5f57"/>
+  <circle cx="736" cy="76" r="4" fill="#febc2e"/>
+  <circle cx="750" cy="76" r="4" fill="#28c840"/>
+  <g font-family="SF Mono, Menlo, Consolas, monospace" font-size="12.5">
+    <text x="718" y="120" fill="#58A6FF">$</text>
+    <text x="732" y="120" fill="#8b949e">git log -1 --oneline</text>
+    <text x="718" y="142" fill="#e6edf3">c2f19ab</text>
+    <text x="776" y="142" fill="#8b949e">ship it</text>
+    <text x="718" y="166" fill="#58A6FF">$</text>
+    <text x="732" y="166" fill="#8b949e">go test ./...</text>
+    <text x="718" y="188" fill="#3fb950">ok</text>
+    <text x="742" y="188" fill="#8b949e">internal/api</text>
+  </g>
+
+  <!-- identity -->
+  <rect x="64" y="74" width="3" height="40" rx="1.5" fill="#58A6FF"/>
+  <text x="84" y="106" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"
+        font-size="42" font-weight="700" letter-spacing="-1" fill="#e6edf3">Fais Restu Pratama</text>
+  <text x="84" y="140" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"
+        font-size="16.5" fill="#8b949e">Go services <tspan fill="#58A6FF">·</tspan> TypeScript interfaces <tspan fill="#58A6FF">·</tspan> shipped end to end</text>
+  <text x="84" y="180" font-family="SF Mono, Menlo, Consolas, monospace" font-size="13.5" fill="#58A6FF">github.com/restuprtma</text>
+
+  <!-- metrics -->
+  <path d="M64 222h872" stroke="#58A6FF" stroke-opacity=".14"/>
+  <g font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif">
+    <text x="64" y="262" font-size="25" font-weight="700" fill="#e6edf3">28</text>
+    <text x="64" y="282" font-size="12" letter-spacing="1.2" fill="#6e7681">REPOSITORIES</text>
+    <text x="292" y="262" font-size="25" font-weight="700" fill="#e6edf3">89</text>
+    <text x="292" y="282" font-size="12" letter-spacing="1.2" fill="#6e7681">COMMITS / 12MO</text>
+    <text x="520" y="262" font-size="25" font-weight="700" fill="#e6edf3">19</text>
+    <text x="520" y="282" font-size="12" letter-spacing="1.2" fill="#6e7681">PULL REQUESTS</text>
+    <text x="748" y="262" font-size="25" font-weight="700" fill="#e6edf3">16</text>
+    <text x="748" y="282" font-size="12" letter-spacing="1.2" fill="#6e7681">FOLLOWERS</text>
+  </g>
+</svg>
