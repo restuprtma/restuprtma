@@ -46,7 +46,7 @@ I build things end to end — the Go service, the schema behind it, and the Type
 ---
 
 <p align="center">
-  <a href="https://github.com/restuprtma?tab=repositories"><img src="https://img.shields.io/badge/start_here-all_repositories-58A6FF?style=for-the-badge&logo=github&logoColor=white" alt="All repositories"></a>
-  <a href="https://github.com/restuprtma/quotation-api"><img src="https://img.shields.io/badge/quotation--api-Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="quotation-api"></a>
-  <a href="https://github.com/restuprtma/quotation-app"><img src="https://img.shields.io/badge/quotation--app-TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="quotation-app"></a>
+  <a href="https://github.com/restuprtma?tab=repositories"><img src="https://img.shields.io/badge/start_here-all_repositories-58A6FF?style=flat-square&logo=github&logoColor=white" alt="All repositories"></a>
+  <a href="https://github.com/restuprtma/quotation-api"><img src="https://img.shields.io/badge/quotation--api-Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="quotation-api"></a>
+  <a href="https://github.com/restuprtma/quotation-app"><img src="https://img.shields.io/badge/quotation--app-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="quotation-app"></a>
 </p>
