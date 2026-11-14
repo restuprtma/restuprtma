@@ -7,20 +7,14 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=go,ts,python,php,dart,java&theme=dark">
-    <img src="https://skillicons.dev/icons?i=go,ts,python,php,dart,java&theme=light" alt="Go, TypeScript, Python, PHP, Dart, Java" height="46">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg">
+    <img src="assets/stack-light.svg" alt="Go, TypeScript, Python, PHP, Dart, Java">
   </picture>
 </p>
 
 ## What I do
 
 I build things end to end — the Go service, the schema behind it, and the TypeScript in front of it. Most of my repos come in pairs: a `*-api` and the `*-app` that talks to it.
-
-```go
-func (s *Service) Handle(ctx context.Context, req Request) (Response, error) {
-	return s.store.Commit(ctx, req.Payload) // boring on purpose
-}
-```
 
 ---
 
@@ -41,13 +35,13 @@ func (s *Service) Handle(ctx context.Context, req Request) (Response, error) {
 ## Activity
 
 <p align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=restuprtma&theme=tokyonight&hide_border=true&area=true&radius=8" alt="Contribution activity graph">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/heatmap-dark.svg">
+    <img src="assets/heatmap-light.svg" alt="Contribution calendar for the last year" width="100%">
+  </picture>
 </p>
 
-<p align="center">
-  <img height="150" src="https://streak-stats.demolab.com?user=restuprtma&theme=tokyonight&hide_border=true" alt="Commit streak">
-  <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=restuprtma&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" alt="Top languages">
-</p>
+<p align="center"><sub>Pulled from the GitHub contribution calendar by <a href="scripts/gen-assets.py">scripts/gen-assets.py</a>.</sub></p>
 
 ---
 
@@ -56,5 +50,3 @@ func (s *Service) Handle(ctx context.Context, req Request) (Response, error) {
   <a href="https://github.com/restuprtma/quotation-api"><img src="https://img.shields.io/badge/quotation--api-Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="quotation-api"></a>
   <a href="https://github.com/restuprtma/quotation-app"><img src="https://img.shields.io/badge/quotation--app-TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="quotation-app"></a>
 </p>
-
-<p align="center"><sub>Banner, metrics and layout are hand-built SVG in <a href="assets">/assets</a> — no template.</sub></p>
